@@ -1,0 +1,151 @@
+aside {
+    border: 1px solid green;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+button {
+    margin-top: 2rem;
+    border-radius: 3vh;
+    cursor: pointer;
+    padding: .75rem;
+    width: 32vh;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+}
+
+button:hover {
+    background-color: hsl(241, 81%, 54%);
+}
+
+header {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+img {
+    position: relative;
+    top: -9px;
+    width: 3vh;
+    margin-right: .7rem;
+}
+
+main {
+    border: 1px solid red;
+    width: 32vh;
+    text-align: center;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+span {
+    color: rgb(156, 155, 155);
+}
+
+
+main, aside {
+    border-radius: 2vh;
+    padding: 5vh;
+    height: 45vh;
+}
+
+#circle{
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%));
+    height: 8rem;
+    width: 8rem;
+}
+
+#memory {
+    color: hsl(39, 100%, 56%);
+}
+
+#memory-row {
+    background-color: hsl(46, 100%, 95%);
+}
+
+#message {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#reaction {
+    color: hsl(0, 100%, 67%);
+}
+
+#reaction-row {
+    background-color: hsl(7, 100%, 95%);
+}
+
+#result {
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+#total {
+    margin-top: 0.5rem;
+    margin-bottom: 3.5rem;
+}
+
+#summary {
+    margin-bottom: 1.75rem;
+}
+
+#verbal {
+    color: hsl(166, 100%, 37%);
+}
+
+#verbal-row{
+    background-color: hsla(173, 100%, 95%);
+}
+
+#visual {
+    color: hsl(234, 85%, 45%);
+}
+
+#visual-row {
+    background-color: hsl(241, 100%, 95%);
+}
+
+#result, #message {
+    color: white;
+}
+
+#total, #percent {
+    font-size: 1rem;
+}
+
+#resultHeader, #total, #percent {
+    color: hsl(241, 100%, 89%);
+}
+
+.column { 
+    float: left;
+}
+
+.category {
+    width: 15vh;
+    font-size: 1rem;
+}
+
+.row {
+    margin-top: .75em;
+    padding-top: 1.25rem;
+    padding-left: 0.75rem;
+    padding-bottom: 1.25rem;
+    width: 30vh;
+    border-radius: 1vh;
+}
+
+.category, .score {
+    position: relative;
+    top: -8px;
+}
+
+@media screen and (min-width: 375px) {
+    main, aside {
+        float: left;
+    }
+  }

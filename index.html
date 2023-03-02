@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Results Summary Component</title>
+</head>
+<body>
+
+  <main>
+    <header id="resultHeader">Your Result</header>
+    <div id="circle">
+      <p id="result">76</p>
+      <p id="total">of 100</p>
+    </div>
+    <p id="message">Great</p>
+    <p id="percent">You scored higher than 65% of the people who have taken these tests.</p>
+  </main>
+
+  <aside>
+
+    <header id="summary">Summary</header>
+    
+    <div class="row" id="reaction-row">
+      <div class="column">
+        <img src="./assets/images/icon-reaction.svg" alt="lightening bolt icon" height="100%">
+      </div>
+      <div class="column category" id="reaction">
+        Reaction
+      </div>
+      <div class="column score">
+        80 <span>/ 100</span>
+      </div>
+    </div >
+    
+    <div class="row" id="memory-row">
+      <div class="column">
+        <img src="./assets/images/icon-memory.svg" alt="brain icon" height="100%">
+      </div>
+      <div class="column category" id="memory">
+        Memory
+      </div>
+      <div class="column score">
+        92 <span>/ 100</span>
+      </div>
+    </div >
+    
+    <div class="row" id="verbal-row">
+      <div class="column">
+        <img src="./assets/images/icon-verbal.svg" alt="chat bubble icon" height="100%">
+      </div>
+      <div class="column category" id="verbal">
+        Verbal
+      </div>
+      <div class="column score">
+        61 <span>/ 100</span>
+      </div>
+    </div >
+    
+    <div class="row" id="visual-row">
+      <div class="column">
+        <img src="./assets/images/icon-visual.svg" alt="single eye icon" height="100%">
+      </div>
+      <div class="column category" id="visual">
+        Visual
+      </div>
+      <div class="column score">
+        72 <span>/ 100</span>
+      </div>
+    </div>
+
+    <button>Continue</button>
+  </aside>
+
+</body>
+</html>
+
+<!-- TO-DO: circle, gradient fade on main and circle, text font and size, aside border, main and aside background shadow on horizontal -->
